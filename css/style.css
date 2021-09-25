@@ -2180,3 +2180,83 @@ button {cursor: pointer;}
 /* team blog ==================*/
 /* Team page complated=========*/
 /* ============================*/
+
+/* privacy ==================*/
+
+.privacy {
+  padding-top: 96px;
+  padding-bottom: 84px;
+}
+.privacy__contents{
+  position: relative;
+  background-image: url("../media/img/blog-inner/hero/cubik.svg");
+  background-repeat: no-repeat;
+  background-position:right top;
+}
+.privacy__title {
+  margin-bottom: 8px;
+  padding-top: 48px;
+}
+.privacy__title::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-ffd3af)
+}
+.privacy__span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--color-232536);
+  opacity: 0.6;
+}
+.privacy__content-box {
+  background:var(--color-ecf8f9);
+  padding: 96px 225px;
+}
+.privacy__content-title--small{
+  font-size: 24px !important;
+  margin-top: 16px !important;
+}
+.privacy__content-title {
+  margin: 0;
+  width: 841px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--color-232536);
+  margin-bottom: 24px;
+}
+.privacy__content-desc {
+  width: 829px;
+  margin-bottom: 24px;
+  color: var(--color-232536);
+}
+
+.privacy__line{
+  width: 296px;
+  height: 24px;
+  background: var(--color-ffd3af);
+  display: inline-block;
+}
+.privacy__line::before{
+  content: "";
+  width: 43px;    
+  display: inline-block;
+  height: 24px;
+  background: var(--color-444cfc);
+}
+.privacy__line::after{
+  content: "";
+  width: 70px;    
+  display: inline-block;
+  height: 24px;
+  background: var(--color-ffa155);
+  transform: translate(183px,0);
+} 
+/* privacy ==================*/
