@@ -2217,6 +2217,7 @@ button {cursor: pointer;}
 .privacy__content-box {
   background:var(--color-ecf8f9);
   padding: 96px 225px;
+  margin-top: 84px;
 }
 .privacy__content-title--small{
   font-size: 24px !important;
